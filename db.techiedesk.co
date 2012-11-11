@@ -1,0 +1,16 @@
+$TTL    1h
+@       IN      SOA     mail.techiedesk.co. admin.techiedesk.com. (
+                         070725         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                            1h         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+@       IN      NS      mail
+        IN      MX      10 mail
+        IN      A       184.106.136.31
+mail    IN      A       184.106.136.31
+www     IN      A       184.106.136.31
+pop     IN      A       184.106.136.31
+smtp    IN      A       184.106.136.31
+admin   IN      A       184.106.136.31
